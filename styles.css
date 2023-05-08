@@ -1,0 +1,9 @@
+button{
+    background-color: lightblue;
+    width: 100px;
+    margin-right: 20px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
