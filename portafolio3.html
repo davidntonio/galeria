@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi Portafolio Profesional</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    .section-title {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Christian David Antonio Pereira</h1>
+  <h2>Bachiller general</h2>
+  <p>Correo electrónico: davidantonio350v2@gmail.com</p>
+  <p>Teléfono: +503 6965-5402</p>
+</header>
+
+<section>
+  <h2 class="section-title">Habilidades</h2>
+  <ul>
+    <li>Comunicación efectiva</li>
+    <li>Trabajo en equipo</li>
+    <li>Creatividad</li>
+  </ul>
+</section>
+
+<section>
+  <h2 class="section-title">Formación educativa</h2>
+  <ul>
+    <li>Certificado en Gestión de Proyectos- Instituto de Gestión Empresarial, Ciudad Progresiva (2018)</li>
+    <li>Diplomado en Marketing Digital - Escuela de Negocios Online, Ciudad Virtual (2019)</li>
+    <li>Curso Avanzado de Diseño Gráfico - Academia Creativa, Ciudad Imaginaria (2020)</li>
+  </ul>
+</section>
+
+<section>
+  <h2 class="section-title">Experiencias laborales</h2>
+  <ul>
+    <li>Asistente de Marketing - ABC Company (Enero 2020 - Diciembre 2021)</li>
+    <li>Coordinador de Recursos Humanos - XYZ Corporation (Marzo 2018 - Febrero 2020)</li>
+    <li>Analista de Finanzas - XYZ Bank (Abril 2016 - Julio 2017)</li>
+  </ul>
+</section>
+
+<section>
+  <h2 class="section-title">Proyectos personales</h2>
+  <ul>
+    <li>Organización de un evento benéfico local (2017)</li>
+    <li>Creación de un blog de viajes y estilo de vida (2018-presente)</li>
+    <li>Desarrollo de una aplicación móvil de gestión de tareas (2019-2020)</li>
+  </ul>
+</section>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
